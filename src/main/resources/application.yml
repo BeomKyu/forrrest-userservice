@@ -15,10 +15,12 @@ springdoc:
   default-consumes-media-type: application/json
   default-produces-media-type: application/json
 
-jwt:
-  secret: ${JWT_SECRET:your_jwt_secret_key_here_make_it_long_and_secure_at_least_256_bits}
-  access-token-validity: 1800000  # 30분
-  refresh-token-validity: 604800000  # 7일
+# jwt:
+#   secret: ${JWT_SECRET:your_jwt_secret_key_here_make_it_long_and_secure_at_least_256_bits}
+#   access-token-validity: 1800000  # 30분
+#   refresh-token-validity: 604800000  # 7일
+#   profile-token-validity: 3600000  # 1시간
+#   app-token-validity: 604800000  # 7일
 
 logging:
   level:
