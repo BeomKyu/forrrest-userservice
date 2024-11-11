@@ -49,6 +49,10 @@ dependencies {
 //	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
+bootJar {
+    archiveFileName = 'forrrest-userservice.jar'
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
